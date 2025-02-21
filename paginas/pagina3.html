@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Gran Desafío</title>
+</head>
+<body>
+    <header>
+        <h1>El Gran Desafío</h1>
+    </header>
+
+    <main>
+        <article>
+            <h2>La Batalla Final</h2>
+            <p>Cuando los cuatro amigos estaban por colocar los cristales, se escuchó un rugido revelando que el guardián los había alcanzado</p>
+            <audio controls>
+                <source src="../assets/llegada.mp3" type="audio/mp3">
+            </audio><br><br>
+
+            <img src="../assets/batalla.jpg" alt="Clímax de la historia" width="700">
+            <p>El eclipse comenzó a oscurecer el cielo mientras los cuatro amigos enfrentaban su desafío final. El guardián corrupto reveló que él mismo había creado la maldición, alimentándose del miedo y la duda de los visitantes del bosque durante siglos. Cada uno de los amigos tuvo que usar lo que había aprendido: la visión artística de Ana, los sueños de Marco, la lógica de Luis y el valor de Sara.</p>
+
+            <p>En el momento crítico, cuando todo parecía perdido, descubrieron que el verdadero poder no estaba en los artefactos, sino en su amistad (que viva el poder de la amistad) y en las lecciones que habían aprendido. Unidos, crearon un círculo de protección, y el guardián corrupto fue purificado por la luz de los artefactos combinados.</p>
+
+            <h2>El Nuevo Amanecer</h2>
+            <p>El bosque se transformó, más vibrante y mágico que nunca. Los cuatro amigos fueron nombrados nuevos guardianes, protectores de los secretos y la magia del lugar. Aunque tomarían caminos diferentes en la universidad, su conexión con el bosque y entre ellos permanecería para siempre.</p>
+
+            <form action="submit_path.php" method="POST">
+                <h3>¿Te atreves a vivir tu propia aventura?</h3>
+                <label for="name">Tu Nombre:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Tu medio de Contacto (Email):</label><br>
+                <input type="email" id="email" name="email" placeholder="usuario@"><br><br>
+                
+                <label for="path">Elige tu rol:</label><br>
+                <select id="path" name="path" required>
+                    <option value="artista">El Artista (como Ana)</option>
+                    <option value="sonador">El Soñador (como Marco)</option>
+                    <option value="cientifico">El Científico (como Luis)</option>
+                    <option value="aventurero">El Aventurero (como Sara)</option>
+                </select><br><br>
+
+                <label for="date">¿Cuándo Comenzará Tu Aventura?</label><br>
+                <input type="date" id="date" name="date" required><br><br>
+                
+                <button type="button">Comenzar Mi Historia</button>
+            </form>
+            <br>
+        </article>
+
+        <nav>
+            <a href="../index.html">Volver al inicio</a>
+        </nav>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 El Bosque de los Secretos</p>
+    </footer>
+</body>
+</html>
